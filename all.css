@@ -1,0 +1,64 @@
+/* index.css */
+body{
+    /* background-color: grey; */
+}
+
+.main1{
+    background-image: url(pics/cover.jpg);
+    background-size: cover;
+    margin: -6px;
+}
+
+.headlink{
+    float: right; 
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+.links{
+    color: brown;
+    text-decoration: none;
+    padding: 3px;
+    background-color: peru;
+    border-radius: 4px;
+    margin-right:19px;
+}
+
+.links:hover{
+    color:white;
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.inmain{
+    text-align: center;
+    color: white
+    
+}
+.inmain:hover{
+    color: peru;
+}
+
+footer{
+    background-color: rgb(155, 172, 179);
+    column-count: 3;
+    column-rule: 2px;
+    column-rule-style:solid;
+    column-rule-width: 2px;
+}
+.office{
+    padding:10px;
+}
+
+/* mainorder.html */
+.order{
+    text-align: center;
+    box-sizing: content-box; 
+    border-style:groove; 
+    border-radius: 40px; 
+    border-color: goldenrod;
+    background-image: url(nt.jpg);
+    background-image: url(nt.jpg), linear-gradient((25,34,45,55))((25,36,47,56))((26,37,48,46));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
